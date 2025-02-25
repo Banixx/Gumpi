@@ -1,0 +1,40 @@
+ body {
+    background-color: #87CEEB; /* Himmelblau */
+    overflow: hidden; /* Verhindert Scrollbalken */
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#game-container {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #66CDAA; /* Mittelgrün */
+}
+
+#game-canvas {
+    background-color: #006400; /* Dunkelgrün */
+    display: block;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#hearts {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.heart {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
